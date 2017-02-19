@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
 /**
- * Solution to SPOJ problem ADDREV
+ * Solution to SPOJ problem PRIME1
  * @see <a href="http://www.spoj.com/problems/PRIME1/">http://www.spoj.com/problems/PRIME1/</a>
  * @author Shahbaz Ahmed
  *
