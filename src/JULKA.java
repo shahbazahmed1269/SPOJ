@@ -21,7 +21,6 @@ public class JULKA {
 	    	 System.out.println((res.subtract(diff)).toString());
 		}
 	    sc.close();
-
 	}
 
 }
