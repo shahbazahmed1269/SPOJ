@@ -7,7 +7,7 @@ import java.util.Scanner;
  *
  */
 public class EIGHTS {
-
+	
 	public static void main(String[] args) {
 		long n, cal;
 		Scanner sc = new Scanner(System.in);
@@ -19,5 +19,4 @@ public class EIGHTS {
 		}
 		sc.close();
 	}
-
 }
