@@ -1,5 +1,10 @@
 import java.util.Scanner;
 
+/**
+ * Solution to SPOJ problem PALIN
+ * @see <a href="http://www.spoj.com/problems/PALIN/">http://www.spoj.com/problems/PALIN/</a>
+ *
+ */
 public class PALIN {
 
 	public static void main(String[] args) {
