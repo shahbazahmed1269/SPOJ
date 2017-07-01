@@ -1,3 +1,4 @@
+package javacode;
 import java.util.Scanner;
 /**
  * Solution to SPOJ problem ACODE
