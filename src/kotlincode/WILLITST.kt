@@ -9,7 +9,6 @@ import java.util.Scanner
  * @author Shahbaz Ahmed
  *
  */
-
 fun main(a: Array<String>) {
     val sc = Scanner(System.`in`)
     val n = sc.nextLong()

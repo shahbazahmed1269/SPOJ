@@ -6,7 +6,6 @@ package kotlincode
  * @author Shahbaz Ahmed
  *
  */
-
 fun main(a: Array<String>) {
 	    var xPos: Int = 0
 	    var n = readLine().toString().toInt()
