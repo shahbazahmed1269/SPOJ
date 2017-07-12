@@ -1,5 +1,7 @@
 package kotlincode
 
+import java.io.BufferedReader
+import java.io.InputStreamReader
 import java.util.*
 /**
  * Solution to SPOJ problem ARMY
@@ -8,21 +10,25 @@ import java.util.*
  *
  */ 
 fun main(a: Array<String>) {
-    var sc = Scanner(System.`in`)
-    var n = sc.nextInt()
+    var br = BufferedReader(InputStreamReader(System.`in`))
+    var n = br.readLine().toInt()
     while (n-- > 0) {
-        var ng = sc.nextInt()
-        var nm = sc.nextInt()
+        br.readLine()
+        var st = StringTokenizer(br.readLine())
+        val ng = st.nextToken().toInt()
+        val nm = st.nextToken().toInt()
         var ngMax = 0
         var nmMax = 0
+        st = StringTokenizer(br.readLine())
         for (i in 0..ng-1) {
-            var x = sc.nextInt()
+            var x = st.nextToken().toInt()
             if (ngMax < x) {
                 ngMax = x
             }
         }
+        st = StringTokenizer(br.readLine())
         for (i in 0..nm-1) {
-            var x = sc.nextInt()
+            var x = st.nextToken().toInt()
             if (nmMax < x) {
                 nmMax = x
             }
