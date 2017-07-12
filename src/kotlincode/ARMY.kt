@@ -1,7 +1,12 @@
 package kotlincode
 
 import java.util.*
-
+/**
+ * Solution to SPOJ problem ARMY
+ * @see <a href="http://www.spoj.com/problems/ARMY/">http://www.spoj.com/problems/ARMY/</a>
+ * @author Shahbaz Ahmed
+ *
+ */ 
 fun main(a: Array<String>) {
     var sc = Scanner(System.`in`)
     var n = sc.nextInt()
