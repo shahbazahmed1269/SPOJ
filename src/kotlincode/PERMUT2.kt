@@ -2,7 +2,12 @@ package kotlincode
 
 import java.util.StringTokenizer
 import java.util.HashMap
-
+/**
+ * Solution to SPOJ problem PERMUT2
+ * @see <a href="http://www.spoj.com/problems/PERMUT2/">http://www.spoj.com/problems/PERMUT2/</a>
+ * @author Shahbaz Ahmed
+ *
+ */ 
 fun main(a: Array<String>) {
 	var n = readLine().toString().toInt()
 	while (n > 0) {
